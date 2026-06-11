@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   todos.plist
-   ToDo App
-
-   Created by albaraa alsayed on 10/11/1447 AH.
-   Copyright (c) 1447 AH ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Tasks</key>
+	<array>
+		<dict>
+			<key>description</key>
+			<string>sdfsdfsd</string>
+			<key>priority</key>
+			<string>Low</string>
+			<key>isInProgress</key>
+			<false/>
+			<key>isDone</key>
+			<true/>
+			<key>id</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>task number 2</string>
+		</dict>
+		<dict>
+			<key>description</key>
+			<string></string>
+			<key>priority</key>
+			<string>High</string>
+			<key>isInProgress</key>
+			<false/>
+			<key>isDone</key>
+			<false/>
+			<key>id</key>
+			<integer>0</integer>
+			<key>name</key>
+			<string>task number 1</string>
+		</dict>
+	</array>
+</dict>
 </plist>

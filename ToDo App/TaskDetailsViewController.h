@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TaskDetailsViewController : ViewController
-
+@property NSDictionary *taskData;
 @end
 
 NS_ASSUME_NONNULL_END
